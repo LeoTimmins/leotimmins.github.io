@@ -1,0 +1,43 @@
+body{
+    background-color: #121212;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #3b3b3b;
+    color: #ffffff;
+    text-align: center;
+}
+
+#h-link{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 6vh;
+    padding: 2%;
+}
+
+@keyframes h-link-hover {
+    0% {
+        color: #ffffff;
+    }
+    100% {
+        color: #000000;
+    }
+}
+
+#h-link:hover{
+    animation-name: h-link-hover;
+    animation-duration: 0.5s;
+    color: #000000;
+}
+
+footer{
+    background-color: #3b3b3b;
+    color: #ffffff;
+    width: 98%;
+    position: absolute;
+    bottom: 0px;
+    padding-left: 2%;
+}

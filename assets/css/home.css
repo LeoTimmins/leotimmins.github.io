@@ -1,0 +1,65 @@
+#p{
+    margin-top: 3vh;
+    text-align: center;
+}
+
+@keyframes p-animation {
+    0% {
+        opacity: 0;
+    }
+        
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes p-animation-2 {
+    0% {
+        opacity: 0;
+    }
+        
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+#p-image-img{
+    border-radius: 50%;
+    width: 40vh;
+    animation-name: p-animation;
+    animation-duration: 1s;
+}
+
+#p-name{
+    margin-top: 1vh;
+    color: #fff;
+    font-size: 8vh;
+    animation-name: p-animation-2;
+    animation-duration: 1s;
+}
+
+#l{
+    padding: 1vh;
+    background-color: #3b3b3b;
+    border-radius: 5px;
+    width: 48vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#l-r{
+    margin: 0.7vh;
+    width: 8vh;
+    height: 6.8vh;
+    border-radius: 50%;
+}
+
+#lr-ir-img{
+    border-radius: 50%;
+    width: 8vh;
+}
