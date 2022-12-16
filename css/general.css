@@ -1,0 +1,46 @@
+:root{
+    --bc1: rgb(40, 40, 40);
+    --bc2: rgb(93, 93, 93);
+    --fc1: rgb(223, 223, 223);
+    --fc2: rgb(246, 146, 255);
+}
+
+body{
+    background-color: var(--bc1);
+    color: var(--fc1);
+    font-family: calibri;
+    font-size: 5vh;
+    padding:0%;
+    margin: 0%;
+}
+
+header{
+    text-align: center;
+    cursor: default;
+    border-bottom: 0.2vh var(--bc2) solid;
+    padding-bottom: 2vh;
+}
+
+.headerLink{
+    padding-left: 1vh;
+    padding-right: 1vh;
+    text-decoration: none;
+    color: var(--fc1);
+}
+
+#activeHeaderLink{
+    border-bottom: 1vh var(--fc1) solid;
+    border-radius: 0.8vh;
+}
+
+#inactiveHeaderLink:hover{
+    border-bottom: 1vh var(--bc2) solid;
+    border-radius: 0.8vh;
+}
+
+#headerLogo{
+    position: absolute;
+    left: 2vh;
+    top: 0.6vh;
+    color: var(--fc2);
+}
